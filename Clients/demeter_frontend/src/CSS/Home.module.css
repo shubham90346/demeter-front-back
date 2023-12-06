@@ -1,0 +1,89 @@
+.header {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 6%;
+    margin-left: 6%;
+    color: rgb(1, 41, 112);
+
+}
+
+.header_button {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    margin-right: 1%;
+    margin-top: 1%;
+
+}
+
+.btn1 {
+    background-color: rgb(0, 172, 71);
+    margin-right: 2%;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 33px;
+    color: white;
+
+}
+
+.btn2 {
+    background-color: rgb(117, 153, 255);
+    margin-right: 2%;
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 33px;
+    color: white;
+    text-align: center;
+}
+
+.imgg {
+    height: 43px;
+    width: 43px;
+    border-radius: 50%;
+
+}
+
+.icon {
+    font-size: 23px;
+    margin-top: -7%;
+    margin-left: 0%;
+}
+
+.Dashboard {
+    display: flex;
+    margin-top: 2%;
+    color: rgb(69, 129, 181);
+
+}
+
+.Dashboard1 {
+    margin-left: 3%;
+    font-size: 18px;
+    font-family: Hedvig Letters Serif;
+    font-weight: 500;
+    margin-top: 1%;
+}
+
+.Dashboard2 {
+    margin-left: 5%;
+    font-size: 20px;
+    margin-top: 2%;
+}
+
+.home {
+    background-color: rgb(237, 241, 250);
+    width: 101%;
+    box-shadow: 0 0 2px rgb(216, 215, 215);
+    margin-left: -1%;
+}
+
+/* .home2{
+    margin-top: -3%;
+} */
+#shadd {
+    box-shadow: 0 0 5px rgb(216, 215, 215);
+    border: none;
+    height: 574px;
+}
