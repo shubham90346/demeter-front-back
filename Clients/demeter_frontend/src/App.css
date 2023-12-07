@@ -1,11 +1,126 @@
 @import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
 
-.lines{
+.lines {
   margin-top: -0.5%;
 }
-.form-select{
+
+.form-select {
   width: 140px;
   height: 35px;
   margin-top: 3%;
   margin-left: 49%;
+}
+
+.dashs {
+  margin-left: 21%;
+  font-size: 19px;
+  font-weight: 500;
+  /* color: rgb(69,129,181); */
+  font-family: Oxygen;
+  margin-top: -10%;
+}
+
+.dashs1 {
+  font-size: 19px;
+  margin-left: 15%;
+  font-weight: 500;
+  /* color: rgb(100,200,255); */
+  font-family: Oxygen;
+  margin-top: -10%;
+}
+
+.dashes3 {
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+  margin-left: 27%;
+  margin-top: 24%;
+}
+
+.dashedd {
+  margin-left: 4%;
+  margin-top: 1%;
+  color: rgb(93, 135, 255);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.vl {
+  border-left: 2px solid rgb(235, 241, 246);
+  height: 41px;
+  margin-top: 9%;
+  margin-left: -2.5%;
+}
+
+.dashedd1 {
+  margin-left: 4%;
+  margin-top: 1%;
+  color: rgb(0, 172, 71);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.dashedd2 {
+  margin-left: 4%;
+  margin-top: 1%;
+  color: rgb(255, 174, 31);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.dashedd3 {
+  margin-left: 4%;
+  margin-top: 1%;
+  color: rgb(250, 137, 107);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.dashedd4 {
+  margin-left: 4%;
+  margin-top: 1%;
+  color: rgb(66, 229, 199);
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.starr {
+  margin-left: 25%;
+  margin-top: -1%;
+  color: rgb(255, 174, 31);
+}
+
+.foot {
+  font-size: 18px;
+  font-family: Oxygen;
+}
+
+.foot1 {
+  color: rgb(93, 135, 255);
+  font-weight: 500;
+  text-decoration: underline;
+  font-family: Oxygen;
+}
+
+.mainn {
+  /* position: fixed; */
+  position: sticky;
+  top: 0.1rem;
+  background-color: white;
+}
+
+/* .rooms {
+  margin-top: 5.8%;
+} */
+
+.roomss {
+  /* margin-top: 5.8%; */
+  position: sticky;
+  top: 5rem;
+}
+.roms{
+  position: inherit;
+}
+.tip{
+  margin-left: 2%;
 }

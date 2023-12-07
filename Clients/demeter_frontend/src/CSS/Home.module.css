@@ -79,11 +79,11 @@
     margin-left: -1%;
 }
 
-/* .home2{
-    margin-top: -3%;
-} */
+.home2{
+    margin-top: 6%;
+}
 #shadd {
-    box-shadow: 0 0 5px rgb(216, 215, 215);
+    box-shadow: 0 0 2px rgb(216, 215, 215);
     border: none;
     height: 574px;
 }

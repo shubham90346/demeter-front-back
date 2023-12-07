@@ -7,9 +7,7 @@
        box-shadow: 0 0 5px rgb(184, 180, 180);
 }
 
-/* .dash2{
-       margin-left: -6%;
-} */
+
 .dash3 {
        font-size: 22px;
        font-family: Merriweather;
@@ -19,7 +17,7 @@
 
 .dash4 {
        width: 98%;
-       height: 220px;
+       height: 230px;
        box-shadow: 0 0 5px rgb(184, 180, 180);
        margin-top: 6%;
        border-radius: 7px;
@@ -32,13 +30,16 @@
        font-weight: 500;
        margin-top: 3%;
        margin-left: 6%;
-       padding-top: 3%;
+       padding-top: 6%;
 }
 
 .dash6 {
-       font-size: 27px;
-       margin-left: 6%;
-       padding-top: 1%;
+       font-size: 31px;
+       margin-left: 14%;
+       padding-top: 15%;
+       color: rgb(69,129,181);
+       font-weight: 600;
+       font-family: Oxygen;
 }
 
 .dash7 {
@@ -46,4 +47,199 @@
        height: 100px; */
        border: 2px solid black;
 
+}
+.dash8{
+       margin-left: 17%;
+       font-size: 16px;
+       margin-top: -17%;
+       font-family: Oxygen;
+}
+.newdash{
+       width: 98%;
+       height: 220px;
+       box-shadow: 0 0 5px rgb(184, 180, 180);
+       border-radius: 7px;
+       background-color: white;
+       margin-top: 6%;
+}
+
+.newdash1{
+       font-size: 22px;
+       font-family: Oxygen;
+       font-weight: 500;
+       margin-top: 3%;
+       margin-left: 6%;
+       padding-top: 2%;
+}
+
+.newdash2{
+       font-size: 31px;
+       margin-left: 10%;
+      margin-top: -8%;
+       color: rgb(69,129,181);
+       font-weight: 600;
+       font-family: Oxygen;
+}
+.newdash3{
+       width: 60px;
+       height: 60px;
+       /* border: 2px solid black; */
+       border-radius: 50%;
+       margin-top: 46%;
+       background-color: rgb(100,200,255);
+}
+.newdash4{
+       margin-left: 8%;
+       font-size: 17px;
+       margin-top: -10%;
+       font-family: Oxygen; 
+}
+.dashed{
+      
+       height: 400px;
+       background-color: white;
+       margin-top: 10%;
+       border-radius: 6px;
+       box-shadow: 0 0 5px rgb(184, 180, 180);
+
+}
+.dashed1{
+       font-family: Oxygen; 
+       font-size: 21px;
+       margin-left: 5%;
+       padding-top: 5%;
+}
+.dashed3{
+       margin-left: 5%;
+       font-size: 17px;
+       margin-top: 1%;
+       /* color: rgb(145,152,148); */
+       font-family: Lato;
+       
+}
+.dashed4{
+       margin-left: 3%;
+       font-size: 17px;
+       /* color: rgb(145,152,148); */
+       margin-top: 1%;
+       font-family: Lato; 
+}
+.tab{
+     
+       height: 400px;
+       background-color: white;
+       margin-top: 5%;
+       border-radius: 6px;
+       box-shadow: 0 0 5px rgb(184, 180, 180);
+}
+.tabs1{
+       width: 72px;
+       height: 27px;
+       border-radius: 20px;
+     
+       text-align: center;
+       color: white;
+       background-color: rgb(93,135,255);
+}
+.dashed11{
+       font-family: Oxygen; 
+       font-size: 21px;
+       margin-left: 1%;
+       padding-top: 2%;
+}
+.tabs2{
+       width: 72px;
+       height: 27px;
+       border-radius: 20px;
+     
+       text-align: center;
+       color: white;
+       background-color:rgb(250,137,107);
+}
+.tabs3{
+       width: 72px;
+       height: 27px;
+       border-radius: 20px;
+     
+       text-align: center;
+       color: white;
+       background-color:rgb(0,172,71);
+}
+.tabs4{
+       width: 72px;
+       height: 27px;
+       border-radius: 20px;
+     
+       text-align: center;
+       color: white;
+       background-color:rgb(255,174,31);
+}
+
+.tabs5{
+       width: 72px;
+       height: 27px;
+       border-radius: 20px;
+     
+       text-align: center;
+       color: white;
+       background-color:rgb(255,177,191);
+}
+.tabs6{
+       width: 72px;
+       height: 27px;
+       border-radius: 20px;
+     
+       text-align: center;
+       color: white;
+       background-color:rgb(19,222,185);
+}
+.topper{
+       border: 1px solid rgb(184, 180, 180);
+       background-color: white;
+       border-radius: 6px;
+       box-shadow: 0 0 5px rgb(184, 180, 180);
+       height: 100px;
+}
+.topper1{
+       font-size: 15px;
+       color: rgb(1,41,112);
+       font-family: oxygen;
+       
+}
+.topper2{
+       font-size: 12px;
+       color: rgb(180,204,229);
+       margin-top: 1%;
+       font-family: oxygen;
+       margin-left: 1%;
+}
+.topper3{
+       width: 47px;
+       height: 47px;
+     
+       border-radius: 50%;
+       margin-left: 4%;
+       margin-top: -2%;
+       background-color: rgb(237,241,250);
+}
+.topper4{
+       font-size: 24px;
+       margin-left: 28%;
+       margin-top: 20%;
+       color: rgb(1,41,112);
+}
+.topper5{
+       width: 47px;
+       height: 47px;
+     
+       border-radius: 50%;
+       margin-left: 4%;
+       margin-top: -2%;
+       background-color: rgb(224,248,233);
+}
+.topper6{
+       font-size: 24px;
+       margin-left: 26%;
+       margin-top: 20%;
+       color: rgb(46,202,106);
 }

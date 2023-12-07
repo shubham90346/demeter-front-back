@@ -17,7 +17,7 @@ function Home(props) {
     return (
         <div>
             <div className={style.main_header}>
-                <div className='row w-100 ' >
+                <div className='row w-100 mainn' >
                     <div className='col-lg-3' >
                         <p className={style.header}>DEMETER FRAGRANCES</p>
                     </div>
@@ -35,8 +35,8 @@ function Home(props) {
                 {/* <hr className='lines'></hr> */}
 
                 <div className='container-fluid'>
-                    <div className='row'>
-                        <div className='col-lg-3' id={style.shadd}>
+                    <div className='row '>
+                        <div className='col-lg-3 roomss' id={style.shadd}>
                             <div className={style.home2}>
                                 <div className={style.Dashboard} onClick={() => IsActive(1)} style={active === 1 ? { backgroundColor: 'rgb(69,129,181)', color: 'white', borderRadius: '10px', } : { color: 'rgb(42,99,168)' }}>
                                     <RiDashboardLine className={style.Dashboard2} />
@@ -76,7 +76,7 @@ function Home(props) {
                             </div>
                         </div>
                     
-                        <div className='col-lg-9'>
+                        <div className='col-lg-9 rooms'>
 
                             <div className={style.home}>
                                 {
