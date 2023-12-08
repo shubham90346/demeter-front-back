@@ -124,3 +124,129 @@
 .tip{
   margin-left: 2%;
 }
+.r1{
+  margin-left: 4%;
+}
+.r2{
+  font-size: 19px;
+  font-family: oxygen;
+}
+.r3{
+  font-size: 12px;
+  color: rgb(44,115,253);
+  font-weight: 500;
+  margin-top: -21%;
+}
+.r4{
+  color: rgb(195,177,194);
+}
+
+.r5{
+  font-size: 12px;
+  color: rgb(255,119,29);
+  font-weight: 500;
+  margin-top: -32%;
+}
+.s1{
+  margin-top: -1.5%;
+  margin-left: 2%;
+}
+.f1{
+  width: 140px;
+  height: 34px;
+}
+.f2{
+  font-size: 14px;
+}
+.f3{
+  margin-left: 1%;
+ 
+}
+.f5{
+  width: 80px;
+  height: 34px;
+}
+.f8{
+  margin-left: -0%;
+  margin-top: -9%;
+  height: 34px;
+}
+.f11{
+  width: 30px;
+  height: 30px;
+  border: 1px solid rgb(66,85,241);
+  margin-top: 2.7%;
+  margin-left: 1.6%;
+  border-radius: 5px;
+
+}
+.f12{
+  color:rgb(66,85,241) ;
+  margin-left: 20%;
+}
+.tabling{
+
+  height: 400px;
+  border-radius: 6px;
+  width: 98%;
+  margin-top: 4%;
+  background-color: white;
+  box-shadow: 0 0 5px rgb(184, 180, 180);
+}
+.ott{
+  font-size: 14px;
+}
+.item1{
+  width: 120%;
+}
+.item2{
+  width: 200%;
+ margin-left: 3.5%;
+ margin-top: -13%;
+ height: 60%;
+}
+.item3{
+  margin-left: 6%;
+}
+.item4{
+  margin-left: 11.5%;
+}
+.item5{
+  width: 230%;
+ margin-left: 3.5%;
+ margin-top: -13%;
+ height: 60%;
+}
+
+.f111{
+  width: 40px;
+  height: 38px;
+  border: 1px solid rgb(66,85,241);
+  margin-top: 2.7%;
+  margin-left: 14.6%;
+  border-radius: 5px;
+
+}
+.f112{
+  color:rgb(66,85,241) ;
+  margin-left: 28%;
+  margin-top: 20%;
+}
+.itemtable{
+  height: 400px;
+  border-radius: 6px;
+  /* width: 98%; */
+  margin-top: 4%;
+  background-color: white;
+  box-shadow: 0 0 5px rgb(184, 180, 180);
+}
+.ff1{
+
+    width: 200px;
+    height: 34px;
+
+}
+.ff3{
+  margin-left: 2%;
+ 
+}

@@ -57,13 +57,13 @@ function NewApp(props) {
                     <Legend />
                     <Tooltip />
                     <Line
-                        dataKey="s" 
+                        dataKey="s"
                         stroke="rgb(100,200,255)"
                         activeDot={{ r: 6 }}
                         strokeWidth={2}
                         dot={false}
                         type="monotone"
-                    
+
 
                     />
 

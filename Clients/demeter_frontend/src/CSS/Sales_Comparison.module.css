@@ -1,0 +1,21 @@
+.sale_comparison_header {
+    font-size: 22px;
+    margin-left: 1.8%;
+    padding-top: 1%;
+    color: rgb(1, 41, 112);
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.sale_comparison_header1 {
+    font-size: 11px;
+    color:rgb(167, 182, 201);
+    font-weight: 600;
+
+}
+
+.sale_comparison_header2 {
+    font-size: 11px;
+    color: rgb(1, 41, 112);
+    font-weight: 600;
+}

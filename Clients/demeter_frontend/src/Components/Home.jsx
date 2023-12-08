@@ -75,49 +75,49 @@ function Home(props) {
 
                             </div>
                         </div>
-                    
+
                         <div className='col-lg-9 rooms'>
 
                             <div className={style.home}>
                                 {
                                     active == 1 && <>
-                                        <Dashboard/>
+                                        <Dashboard />
                                     </>
                                 }
 
                                 {
                                     active == 2 && <>
-                                        <Sales_Report/>
+                                        <Sales_Report />
                                     </>
                                 }
 
                                 {
                                     active == 3 && <>
-                                        <Item_Report/>
+                                        <Item_Report />
                                     </>
                                 }
 
                                 {
                                     active == 4 && <>
-                                        <Open_Purchase/>
+                                        <Open_Purchase />
                                     </>
                                 }
 
                                 {
                                     active == 5 && <>
-                                        <Sales_Comparison/>
+                                        <Sales_Comparison />
                                     </>
                                 }
 
                                 {
                                     active == 6 && <>
-                                        <Purchase_comparison/>
+                                        <Purchase_comparison />
                                     </>
                                 }
 
                                 {
                                     active == 7 && <>
-                                        <Customer_comparison/>
+                                        <Customer_comparison />
                                     </>
                                 }
                             </div>

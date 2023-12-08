@@ -8,6 +8,8 @@ import { PiCircleBold } from "react-icons/pi";
 import { IoMdStarOutline } from "react-icons/io";
 import { TbReportSearch } from "react-icons/tb";
 import { BsFillBagCheckFill } from "react-icons/bs";
+import { BsFillBoxSeamFill } from "react-icons/bs";
+
 const data = {
   series: [{
     name: 'Net Profit',
@@ -85,8 +87,17 @@ function Dashboard(props) {
   return (
     <div className='container'>
 
+      <p className={styles.Dashboard_headerss}>Dashboard </p>
+      <div className='d-flex s1'>
+        <p className={styles.Dashboard_headerss1}>Home/</p>
+        <p className={styles.Dashboard_headerss2}>Dashboard</p>
+      </div>
+
+
+
+
       <div className='row '>
-        <div className='col-lg-4 mt-4'>
+        <div className='col-lg-4 mt-2'>
           <div className={styles.topper}>
             <div className='d-flex mt-1 tip'>
               <p className={styles.topper1}>Sales |</p>
@@ -94,38 +105,77 @@ function Dashboard(props) {
             </div>
 
             <div className='d-flex'>
-              <div className={styles.topper3}>
-                <TbReportSearch  className={styles.topper4}/>
+
+
+              <div className='d-flex'>
+                <div className={styles.topper3}>
+                  <TbReportSearch className={styles.topper4} />
+                </div>
+              </div>
+
+              <div className='r1'>
+                <p className='r2 '>$966,645.27</p>
+                <p className='r3'>35,784 <span className='r4'>| Total</span></p>
               </div>
 
             </div>
+
+
 
           </div>
 
         </div>
 
-        <div className='col-lg-4 mt-4'>
+        <div className='col-lg-4 mt-2'>
           <div className={styles.topper}>
             <div className='d-flex mt-1 tip'>
               <p className={styles.topper1}>Open Purchase Order |</p>
               <p className={styles.topper2}>2023</p>
             </div>
- 
-           <div className='d-flex'>
-           <div className={styles.topper5}>
-           <BsFillBagCheckFill  className={styles.topper6}/>
+
+            <div className='d-flex'>
+
+              <div className='d-flex'>
+                <div className={styles.topper5}>
+                  <BsFillBagCheckFill className={styles.topper6} />
+                </div>
               </div>
-           </div>
+
+              <div className='r1'>
+                <p className='r2 '>$86,322.27</p>
+                <p className='r3'>353 <span className='r4'>| Total</span></p>
+              </div>
+
+            </div>
+
+
 
           </div>
         </div>
 
-        <div className='col-lg-4 mt-4'>
+        <div className='col-lg-4 mt-2'>
           <div className={styles.topper}>
             <div className='d-flex mt-1 tip'>
               <p className={styles.topper1}>Cogs |</p>
               <p className={styles.topper2}>2023</p>
             </div>
+
+            <div className='d-flex'>
+
+              <div className='d-flex'>
+                <div className={styles.topper7}>
+                  <BsFillBoxSeamFill className={styles.topper8} />
+                </div>
+              </div>
+
+              <div className='r1'>
+                <p className='r2 '>$00.00</p>
+                <p className='r5'>00<span className='r4'>| Total</span></p>
+              </div>
+
+            </div>
+
+
           </div>
         </div>
       </div>

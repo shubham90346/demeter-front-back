@@ -8,32 +8,80 @@ var nodemailer = require('nodemailer');
 
 // LOGIN USER TOKEN 
 
+// module.exports.Loginuser = (req, res) => {
+//     try {
+//         let sql = "SELECT * FROM `users` WHERE email = ? AND password = ?";
+//         connection.query(sql, [req.body.email, req.body.password], (error, result) => {
+
+//             if (error) {
+//                 res.send("error on the server")
+//             } else {
+//                 if (!result) {
+//                     return res.send("no user found")
+//                 }
+
+//                 else {
+//                     let checkpassword = bcrypt.compareSync(req.body.password, result[0].password)
+//                     if (!checkpassword) {
+//                         result.password = undefined;
+//                         let token = jwt.sign({ id: result.id }, secretkey, {
+//                             expiresIn: 600
+//                         });
+//                         res.status(200).send({ auth: true, token: token, user: result });
+
+//                     } else {
+//                         return res.json("Invalid email or password");
+//                     }
+//                 }
+//             }
+//         })
+//     } catch (error) {
+//         console.log(error)
+//     }
+// }
+
 module.exports.Loginuser = (req, res) => {
-    try {
-        let sql = "SELECT * FROM `users` WHERE email = ? AND password = ?";
-        connection.query(sql, [req.body.email, req.body.password], (error, result) => {
-            if (error) {
-                res.send("error on the server")
+    let sql = "SELECT * FROM `users` WHERE email = ? AND password = ?";
+    connection.query(sql, [req.body.email, req.body.password], (error, result) => {
+        // const verifieemail = (req.body.email !== result.email);
+        //   console.log(verifieemail)
+        if (error) {
+            console.log(error)
+        } else if (req.body.email !== result.email)
+            res.send({ message: "Email is incorrect!" })
+        else {
+            let checkpassword = bcrypt.compareSync(req.body.password, result[0].password)
+            if (!checkpassword) {
+                result.password = undefined;
+                let token = jwt.sign({ id: result.id }, secretkey, {
+                    expiresIn: 600
+                });
+                res.status(200).send({ auth: true, token: token, user: result });
             } else {
-                if (!result) {
-                    return res.send("no user found")
-                } else {
-                    let checkpassword = bcrypt.compareSync(req.body.password, result[0].password)
-                    if (!checkpassword) {
-                        result.password = undefined;
-                        let token = jwt.sign({ id: result.id }, secretkey, {
-                            expiresIn: 600
-                        });
-                        res.status(200).send({ auth: true, token: token, user: result });
-                    } else {
-                        return res.json("Invalid email or password");
-                    }
-                }
+                return res.json("Invalid email or password");
             }
-        })
-    } catch (error) {
-        console.log(error)
-    }
+        }
+
+
+        // if (!result) {
+        //     return res.send("no user found")
+        // }
+
+        // else {
+        //     let checkpassword = bcrypt.compareSync(req.body.password, result[0].password)
+        //     if (!checkpassword) {
+        //         result.password = undefined;
+        //         let token = jwt.sign({ id: result.id }, secretkey, {
+        //             expiresIn: 600
+        //         });
+        //         res.status(200).send({ auth: true, token: token, user: result });
+        //     } else {
+        //         return res.json("Invalid email or password");
+        //     }
+        // }
+    })
+
+
 }
 
 
